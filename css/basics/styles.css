@@ -1,0 +1,40 @@
+button {
+  background-color: green;
+}
+
+/* classes */
+.first {
+  color: white;
+}
+
+/* id */
+#first {
+  padding: 1rem;
+}
+
+/* 
+    4 => top right bottom left 
+    2 => topbottom rightleft 
+    1 => all
+*/
+
+.border {
+  border-bottom: 5px solid #2d2d88;
+  border-top: 5px solid #2d2d88;
+  border-radius: 1rem 0 1rem 0;
+}
+
+.heading {
+  width: 16rem;
+  font-size: 2rem;
+  font-family: "Roboto";
+  font-weight: 500;
+  text-align: right;
+  text-decoration: overline;
+}
+
+a {
+  cursor: default;
+  color: black;
+  text-decoration: none;
+}
