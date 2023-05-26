@@ -1,0 +1,33 @@
+.parent {
+  width: 25rem;
+  height: 25rem;
+  border: 5px solid black;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  /* main axis => justify-content */
+  /* cross axis => align-items */
+}
+
+.child {
+  width: 5rem;
+  height: 5rem;
+  background-color: red;
+}
+
+.first {
+  /* align-self: flex-start; */
+}
+
+.last1 {
+  flex-grow: 1;
+}
+
+.last {
+  border: 1px solid black;
+}

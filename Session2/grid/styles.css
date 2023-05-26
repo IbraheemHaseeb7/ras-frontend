@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+
+  grid-template-columns: repeat(3, 10rem);
+  grid-template-rows: repeat(3, 10rem);
+
+  justify-content: center;
+  align-content: end;
+}
+
+.item {
+  background-color: gray;
+  border: 1px solid black;
+
+  display: flex;
+  justify-content: center;
+}
+
+.special {
+  grid-column: 1/3;
+  grid-row: 1/3;
+}

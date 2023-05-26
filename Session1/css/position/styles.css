@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+}
+
+.container {
+  width: 25rem;
+  height: 25rem;
+  background-color: gray;
+}
+
+.child {
+  width: 5rem;
+  height: 5rem;
+  background-color: red;
+  position: sticky;
+  position: -webkit-sticky;
+
+  /* top: 1rem; */
+  top: 2rem;
+  left: 1rem;
+  /* right: 1rem; */
+}
+
+.fixed {
+  border: 1px solid black;
+  position: fixed;
+  top: 0;
+}
